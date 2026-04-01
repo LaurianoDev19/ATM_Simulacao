@@ -16,14 +16,14 @@ Existem duas formas de rodar o programa, dependendo do teu sistema operativo:
 Opção 1: Via Terminal (Recomendado)
 Esta é a forma mais segura de ver todos os outputs do menu corretamente:
 
-Descarrega o ficheiro ATM-Simular.jar deste repositório.
+Descarrega o ficheiro ATM_Simular.jar deste repositório.
 
 Abre o terminal na pasta onde guardaste o arquivo.
 
 Digita o seguinte comando:
 
 Bash
-java -jar ATM-Simular.jar
+java -jar ATM_Simular.jar
 Opção 2: Clique Duplo (Windows/Navegador de Ficheiros)
 Em muitos sistemas, podes simplesmente dar um clique duplo no ficheiro .jar.
 
