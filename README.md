@@ -1,35 +1,24 @@
-🚀 Como Executar o Simulador ATM (Arquivo .jar)
-Este repositório contém a versão compilada e pronta a usar do Simulador ATM MULTICAIXA. Segue os passos abaixo para correres o programa no teu computador.
+🛠️ Passo a Passo para Execução
+1. Abrir o Terminal
+No Windows: Prime a tecla Win + R, digita cmd e prime Enter.
 
-📋 Pré-requisitos
-Para que o programa funcione, precisas de ter o Java (JRE ou JDK) instalado no teu sistema.
+No VS Code: Prime Ctrl + ' (crase) para abrir o terminal integrado.
 
-Recomendado: Java 17 ou superior.
+2. Navegar até à pasta do Projeto
+Usa o comando cd para entrar na pasta onde descarregaste o arquivo .jar. Exemplo:
 
-Para verificar se tens o Java, abre o terminal (CMD ou PowerShell) e digita:
+cd Downloads/ATM_Simular
+3. Executar o Comando
+Copia e cola o seguinte comando para iniciar o simulador:
 
-Bash
-java -version
-🛠️ Passo a Passo para Executar
-Existem duas formas de rodar o programa, dependendo do teu sistema operativo:
+java -jar ATM_Simular-1.0.jar
+⚠️ Por que não usar o Clique Duplo?
+Se tentares abrir o ficheiro com dois cliques no ambiente gráfico (Windows Explorer):
 
-Opção 1: Via Terminal (Recomendado)
-Esta é a forma mais segura de ver todos os outputs do menu corretamente:
+O Windows abre uma janela preta por milissegundos.
 
-Descarrega o ficheiro ATM_Simular.jar deste repositório.
+O programa executa o código inicial e, como não encontra um terminal ativo para manter a sessão, fecha automaticamente.
 
-Abre o terminal na pasta onde guardaste o arquivo.
+Não conseguirás introduzir o teu PIN ou ver o Menu Principal.
 
-Digita o seguinte comando:
-
-Bash
-java -jar ATM_Simular.jar
-Opção 2: Clique Duplo (Windows/Navegador de Ficheiros)
-Em muitos sistemas, podes simplesmente dar um clique duplo no ficheiro .jar.
-
-Nota: Se o programa usar apenas a consola (System.out), ele poderá abrir e fechar muito rápido. Por isso, a Opção 1 é sempre a melhor para programas de consola.
-
-⚠️ Possíveis Erros
-"Java não reconhecido": Se o comando java não funcionar, precisas de instalar o Java e configurar as "Variáveis de Ambiente" (Path) no teu Windows/Linux.
-
-Erro de Versão: Se o .jar foi compilado numa versão mais recente do Java do que a que tens no PC, o programa não vai abrir. Garante que tens o Java atualizado.
+Dica: Se vires um erro de "Versão", certifica-te de que tens o Java 25 instalado, conforme configurado no ficheiro pom.xml.
